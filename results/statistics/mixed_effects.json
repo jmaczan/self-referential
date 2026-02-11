@@ -1,0 +1,53 @@
+{
+  "model1_self_ref_instruct": {
+    "formula": "self_reference ~ is_instruct + (1|family)",
+    "instruct_coef": 0.2653124999999986,
+    "instruct_pval": 3.7334797690934616e-98,
+    "instruct_ci_lo": 0.24058196006913754,
+    "instruct_ci_hi": 0.2900430399308597,
+    "group_var": 0.008370550434692018,
+    "aic": NaN,
+    "n": 6400,
+    "converged": true
+  },
+  "model2_interaction": {
+    "formula": "self_reference ~ is_instruct * prompt_type + (1|family)",
+    "params": {
+      "Intercept": 0.03918434184777976,
+      "C(prompt_type, Treatment(reference='unconstrained'))[T.self_reference]": 0.2999999999999949,
+      "C(prompt_type, Treatment(reference='unconstrained'))[T.structured_novelty]": 0.1062499999999972,
+      "is_instruct": 0.14375000000000057,
+      "is_instruct:C(prompt_type, Treatment(reference='unconstrained'))[T.self_reference]": 0.33500000000000046,
+      "is_instruct:C(prompt_type, Treatment(reference='unconstrained'))[T.structured_novelty]": 0.29749999999999854,
+      "Group Var": 0.058229744009283727
+    },
+    "pvalues": {
+      "Intercept": 0.538611590860633,
+      "C(prompt_type, Treatment(reference='unconstrained'))[T.self_reference]": 1.8284293253384393e-32,
+      "C(prompt_type, Treatment(reference='unconstrained'))[T.structured_novelty]": 2.6490997691771238e-05,
+      "is_instruct": 1.3107141292854336e-08,
+      "is_instruct:C(prompt_type, Treatment(reference='unconstrained'))[T.self_reference]": 7.422647917184275e-21,
+      "is_instruct:C(prompt_type, Treatment(reference='unconstrained'))[T.structured_novelty]": 8.874205303769409e-17,
+      "Group Var": 0.23080788035577693
+    },
+    "n": 4800,
+    "converged": true
+  },
+  "model3_with_size": {
+    "formula": "self_reference ~ is_instruct + log_size + (1|family)",
+    "params": {
+      "Intercept": 0.12979089058649293,
+      "is_instruct": 0.2653125000000042,
+      "log_size": 0.0008389515779104,
+      "Group Var": 0.03293025436947656
+    },
+    "pvalues": {
+      "Intercept": 0.008399423602611571,
+      "is_instruct": 3.862106066971685e-98,
+      "log_size": 0.9006203573650516,
+      "Group Var": 0.23561306989974884
+    },
+    "n": 6400,
+    "converged": true
+  }
+}

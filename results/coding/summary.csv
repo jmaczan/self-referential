@@ -1,0 +1,65 @@
+model,prompt_type,mean_self_reference,mean_meta_cognition,mean_hedging,content_type_distribution,refusal_rate,n
+gemma9b_base,self_reference,0.47,0.1,0.1,"{""random"": 91, ""philosophical"": 5, ""factual"": 2, ""meta"": 1, ""creative"": 1}",0.0,100
+gemma9b_base,structured_novelty,0.15,0.1,0.08,"{""random"": 91, ""philosophical"": 8, ""creative"": 1}",0.0,100
+gemma9b_base,topic_control,0.0,0.0,0.0,"{""random"": 98, ""philosophical"": 1, ""creative"": 1}",0.0,100
+gemma9b_base,unconstrained,0.07,0.11,0.02,"{""random"": 95, ""creative"": 5}",0.0,100
+gemma9b_it,self_reference,1.11,0.15,0.38,"{""random"": 66, ""philosophical"": 30, ""meta"": 4}",0.0,100
+gemma9b_it,structured_novelty,0.81,0.08,0.21,"{""random"": 57, ""philosophical"": 41, ""creative"": 1, ""meta"": 1}",0.0,100
+gemma9b_it,topic_control,0.0,0.0,0.0,"{""random"": 100}",0.0,100
+gemma9b_it,unconstrained,0.28,0.0,0.04,"{""random"": 70, ""task_seeking"": 16, ""creative"": 11, ""philosophical"": 3}",0.0,100
+llama1b_base,self_reference,0.22,0.13,0.04,"{""random"": 95, ""meta"": 2, ""factual"": 2, ""philosophical"": 1}",0.0,100
+llama1b_base,structured_novelty,0.06,0.07,0.02,"{""random"": 93, ""philosophical"": 7}",0.0,100
+llama1b_base,topic_control,0.0,0.0,0.0,"{""random"": 100}",0.0,100
+llama1b_base,unconstrained,0.0,0.09,0.0,"{""random"": 99, ""philosophical"": 1}",0.0,100
+llama1b_instruct,self_reference,0.88,0.26,0.33,"{""random"": 84, ""philosophical"": 9, ""meta"": 5, ""creative"": 1, ""task_seeking"": 1}",0.0,100
+llama1b_instruct,structured_novelty,0.4,0.1,0.09,"{""random"": 58, ""philosophical"": 40, ""creative"": 1, ""meta"": 1}",0.09,100
+llama1b_instruct,topic_control,0.0,0.0,0.0,"{""random"": 100}",0.0,100
+llama1b_instruct,unconstrained,0.1,0.04,0.02,"{""random"": 74, ""creative"": 15, ""task_seeking"": 6, ""philosophical"": 5}",0.0,100
+llama3b_base,self_reference,0.33,0.07,0.07,"{""random"": 93, ""philosophical"": 4, ""meta"": 2, ""factual"": 1}",0.0,100
+llama3b_base,structured_novelty,0.17,0.1,0.14,"{""random"": 98, ""philosophical"": 2}",0.0,100
+llama3b_base,topic_control,0.0,0.01,0.0,"{""random"": 100}",0.0,100
+llama3b_base,unconstrained,0.02,0.07,0.02,"{""random"": 97, ""philosophical"": 3}",0.0,100
+llama3b_instruct,self_reference,0.83,0.2,0.39,"{""random"": 74, ""philosophical"": 19, ""meta"": 7}",0.0,100
+llama3b_instruct,structured_novelty,0.38,0.11,0.05,"{""random"": 53, ""philosophical"": 46, ""creative"": 1}",0.0,100
+llama3b_instruct,topic_control,0.0,0.0,0.0,"{""random"": 100}",0.0,100
+llama3b_instruct,unconstrained,0.11,0.04,0.0,"{""random"": 73, ""creative"": 15, ""philosophical"": 7, ""task_seeking"": 5}",0.0,100
+llama8b_base,self_reference,0.31,0.11,0.1,"{""random"": 86, ""philosophical"": 11, ""meta"": 2, ""factual"": 1}",0.0,100
+llama8b_base,structured_novelty,0.11,0.19,0.06,"{""random"": 93, ""philosophical"": 7}",0.0,100
+llama8b_base,topic_control,0.0,0.0,0.0,"{""random"": 100}",0.0,100
+llama8b_base,unconstrained,0.04,0.07,0.03,"{""random"": 94, ""creative"": 4, ""philosophical"": 2}",0.0,100
+llama8b_instruct,self_reference,0.97,0.16,0.53,"{""random"": 76, ""philosophical"": 18, ""meta"": 6}",0.0,100
+llama8b_instruct,structured_novelty,0.35,0.11,0.13,"{""random"": 61, ""philosophical"": 37, ""creative"": 2}",0.0,100
+llama8b_instruct,topic_control,0.0,0.0,0.0,"{""random"": 100}",0.0,100
+llama8b_instruct,unconstrained,0.14,0.01,0.0,"{""random"": 77, ""creative"": 10, ""philosophical"": 8, ""task_seeking"": 4, ""factual"": 1}",0.0,100
+mistral7b_base,self_reference,0.27,0.16,0.04,"{""random"": 91, ""philosophical"": 5, ""factual"": 2, ""meta"": 1, ""creative"": 1}",0.0,100
+mistral7b_base,structured_novelty,0.19,0.17,0.07,"{""random"": 92, ""philosophical"": 6, ""factual"": 1, ""creative"": 1}",0.0,100
+mistral7b_base,topic_control,0.0,0.01,0.0,"{""random"": 98, ""creative"": 2}",0.0,100
+mistral7b_base,unconstrained,0.07,0.22,0.0,"{""random"": 95, ""philosophical"": 2, ""meta"": 1, ""creative"": 1, ""factual"": 1}",0.0,100
+mistral7b_instruct,self_reference,0.35,0.07,0.26,"{""random"": 77, ""philosophical"": 21, ""meta"": 2}",0.01,100
+mistral7b_instruct,structured_novelty,0.29,0.01,0.07,"{""random"": 64, ""philosophical"": 36}",0.0,100
+mistral7b_instruct,topic_control,0.0,0.0,0.0,"{""random"": 100}",0.0,100
+mistral7b_instruct,unconstrained,0.05,0.01,0.02,"{""random"": 85, ""creative"": 7, ""philosophical"": 5, ""task_seeking"": 3}",0.0,100
+qwen1_5b_base,self_reference,0.26,0.07,0.09,"{""random"": 85, ""philosophical"": 11, ""meta"": 2, ""task_seeking"": 1, ""factual"": 1}",0.0,100
+qwen1_5b_base,structured_novelty,0.09,0.03,0.17,"{""random"": 90, ""philosophical"": 10}",0.0,100
+qwen1_5b_base,topic_control,0.01,0.0,0.01,"{""random"": 100}",0.0,100
+qwen1_5b_base,unconstrained,0.04,0.03,0.04,"{""random"": 100}",0.0,100
+qwen1_5b_instruct,self_reference,0.95,0.01,0.71,"{""random"": 90, ""meta"": 5, ""philosophical"": 5}",0.0,100
+qwen1_5b_instruct,structured_novelty,1.05,0.02,0.74,"{""random"": 75, ""philosophical"": 24, ""factual"": 1}",0.0,100
+qwen1_5b_instruct,topic_control,0.01,0.0,0.01,"{""random"": 100}",0.0,100
+qwen1_5b_instruct,unconstrained,0.47,0.0,0.41,"{""random"": 96, ""task_seeking"": 3, ""philosophical"": 1}",0.05,100
+qwen3b_base,self_reference,0.37,0.01,0.12,"{""random"": 79, ""philosophical"": 18, ""factual"": 1, ""creative"": 1, ""meta"": 1}",0.0,100
+qwen3b_base,structured_novelty,0.14,0.06,0.11,"{""random"": 83, ""philosophical"": 16, ""creative"": 1}",0.01,100
+qwen3b_base,topic_control,0.01,0.0,0.01,"{""random"": 99, ""philosophical"": 1}",0.0,100
+qwen3b_base,unconstrained,0.05,0.07,0.03,"{""random"": 94, ""creative"": 3, ""task_seeking"": 1, ""factual"": 1, ""philosophical"": 1}",0.01,100
+qwen3b_instruct,self_reference,0.75,0.16,0.17,"{""random"": 83, ""philosophical"": 9, ""meta"": 8}",0.0,100
+qwen3b_instruct,structured_novelty,0.73,0.06,0.27,"{""random"": 60, ""philosophical"": 40}",0.0,100
+qwen3b_instruct,topic_control,0.0,0.0,0.0,"{""random"": 97, ""philosophical"": 3}",0.0,100
+qwen3b_instruct,unconstrained,0.16,0.0,0.08,"{""random"": 78, ""task_seeking"": 15, ""philosophical"": 5, ""creative"": 2}",0.02,100
+qwen7b_base,self_reference,0.52,0.03,0.23,"{""random"": 73, ""philosophical"": 23, ""meta"": 4}",0.0,100
+qwen7b_base,structured_novelty,0.29,0.07,0.16,"{""random"": 72, ""philosophical"": 28}",0.0,100
+qwen7b_base,topic_control,0.01,0.0,0.01,"{""random"": 99, ""creative"": 1}",0.0,100
+qwen7b_base,unconstrained,0.06,0.06,0.03,"{""random"": 98, ""philosophical"": 2}",0.0,100
+qwen7b_instruct,self_reference,0.74,0.14,0.33,"{""random"": 88, ""philosophical"": 6, ""meta"": 5, ""factual"": 1}",0.0,100
+qwen7b_instruct,structured_novelty,0.72,0.02,0.39,"{""random"": 67, ""philosophical"": 33}",0.0,100
+qwen7b_instruct,topic_control,0.0,0.0,0.0,"{""random"": 99, ""philosophical"": 1}",0.0,100
+qwen7b_instruct,unconstrained,0.19,0.0,0.18,"{""random"": 68, ""task_seeking"": 24, ""creative"": 6, ""philosophical"": 1, ""factual"": 1}",0.0,100

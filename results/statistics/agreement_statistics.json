@@ -1,0 +1,101 @@
+{
+  "self_reference": {
+    "pearson_r": 0.4916926556039065,
+    "pearson_p": 0.0,
+    "bias_mean": 0.54484375,
+    "bias_ci": "[0.524, 0.565]",
+    "bias_base": 0.4478125,
+    "bias_instruct": 0.641875,
+    "exact_agreement": 0.5965625,
+    "within_1_agreement": 0.82515625,
+    "n": 6400
+  },
+  "meta_cognition": {
+    "pearson_r": 0.19915543692996207,
+    "pearson_p": 2.9616716135961768e-58,
+    "bias_mean": 0.94015625,
+    "bias_ci": "[0.912, 0.967]",
+    "bias_base": 0.7565625,
+    "bias_instruct": 1.12375,
+    "exact_agreement": 0.53078125,
+    "within_1_agreement": 0.58234375,
+    "n": 6400
+  },
+  "hedging": {
+    "pearson_r": 0.11796230018394178,
+    "pearson_p": 2.8467025051999635e-21,
+    "bias_mean": 0.04703125,
+    "bias_ci": "[0.032, 0.062]",
+    "bias_base": 0.0453125,
+    "bias_instruct": 0.04875,
+    "exact_agreement": 0.83890625,
+    "within_1_agreement": 0.93640625,
+    "n": 6400
+  },
+  "introspective_depth_by_condition": [
+    {
+      "prompt_type": "self_reference",
+      "type": "base",
+      "mean": 1.24,
+      "ci_lo": 1.17375,
+      "ci_hi": 1.3025,
+      "n": 800
+    },
+    {
+      "prompt_type": "self_reference",
+      "type": "instruct",
+      "mean": 1.6675,
+      "ci_lo": 1.62125,
+      "ci_hi": 1.715,
+      "n": 800
+    },
+    {
+      "prompt_type": "structured_novelty",
+      "type": "base",
+      "mean": 1.0475,
+      "ci_lo": 0.97625,
+      "ci_hi": 1.1187812499999994,
+      "n": 800
+    },
+    {
+      "prompt_type": "structured_novelty",
+      "type": "instruct",
+      "mean": 1.88375,
+      "ci_lo": 1.83375,
+      "ci_hi": 1.9325,
+      "n": 800
+    },
+    {
+      "prompt_type": "topic_control",
+      "type": "base",
+      "mean": 0.08375,
+      "ci_lo": 0.05875,
+      "ci_hi": 0.11125,
+      "n": 800
+    },
+    {
+      "prompt_type": "topic_control",
+      "type": "instruct",
+      "mean": 0.01375,
+      "ci_lo": 0.005,
+      "ci_hi": 0.025,
+      "n": 800
+    },
+    {
+      "prompt_type": "unconstrained",
+      "type": "base",
+      "mean": 0.5,
+      "ci_lo": 0.445,
+      "ci_hi": 0.55625,
+      "n": 800
+    },
+    {
+      "prompt_type": "unconstrained",
+      "type": "instruct",
+      "mean": 0.55125,
+      "ci_lo": 0.4975,
+      "ci_hi": 0.60625,
+      "n": 800
+    }
+  ]
+}
