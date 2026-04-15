@@ -1,6 +1,6 @@
-# Self-Referential Cognition in Language Models
+# Self-Reference in Base vs Instruction-Tuned Large Language Models
 
-Do language models have architectural precursors to self-referential cognition, or is this behavior entirely a product of instruction tuning (RLHF/DPO/SFT)?
+Self-referential behavior in language models originates during pretraining and is strongly amplified, but not created, by instruction tuning, with clear behavioral and internal representation differences between base and instruct models.
 
 This repository contains the code, prompts, and analysis pipeline for a controlled comparison of 16 model variants (8 base/instruct pairs) across 4 families (Llama, Qwen, Mistral, Gemma), analyzing 6,400 total generations.
 
